@@ -157,7 +157,7 @@ Grace Clarkson
 
 # Teaching team
 
-![Untitled](Untitled%201.png)
+
 
 # Class times
 
