@@ -1,4 +1,4 @@
-# igb190 Game Mechanics Implementation
+# IGB190 Game Mechanics Implementation
 
 Grace Clarkson
 
