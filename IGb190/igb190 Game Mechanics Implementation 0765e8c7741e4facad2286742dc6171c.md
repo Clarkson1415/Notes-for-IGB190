@@ -133,6 +133,21 @@ Grace Clarkson
 - [Lecture 7:](#lecture-7)
   - [Assignment2](#assignment2)
   - [Assignment 2 Design Pillars](#assignment-2-design-pillars)
+  - [RPG Mechanics and Itemisation](#rpg-mechanics-and-itemisation)
+  - [Origins of RPG mechanics](#origins-of-rpg-mechanics)
+  - [Types of RPGs](#types-of-rpgs)
+  - [Roles and Classes](#roles-and-classes)
+  - [Stats](#stats)
+  - [Levelling](#levelling)
+  - [Skill Trees](#skill-trees)
+  - [Abilities](#abilities)
+  - [Ability Mechanics](#ability-mechanics)
+  - [RPG Itemisation](#rpg-itemisation)
+  - [Item Generation](#item-generation)
+  - [Item Sets](#item-sets)
+  - [Itemisation and RPG Development](#itemisation-and-rpg-development)
+  - [Player Decision Making](#player-decision-making)
+  - [Item 'economy'](#item-economy)
 
 
 
@@ -1221,6 +1236,92 @@ https://www.youtube.com/watch?v=AJdEQ
 ## Assignment 2 Design Pillars
 
 1. Challenge and Competence
-    1. the game is appropriately challenging and that they are competent at the experience
-2. Pillar 2: Player Empowerment
-    1.
+- the game is appropriately challenging and that they are competent at the experience
+2. Player Empowerment
+- game systems should make player feel powerful, as they progress
+3. Buliding Anticipation
+   - player should feel a sense of anticipation throughought
+4. meaningful bulid choicing
+- feel they can create unique gameplay dynamics and playstyles
+## RPG Mechanics and Itemisation
+- part 1/2 on RPG Mechanics
+- Lec 7 focus on concepts and mechanics of RPGs
+- Why?
+  - these drive RPG games 
+  - contain logic for complex and rich game design
+## Origins of RPG mechanics
+ - Dungeons and Dragons 1974 TTRPG
+ - Warhammer TTRPG
+ - dnd 1975 rpg game
+ - rogue 1980 - video game
+ - Ultima 1981 - video game
+
+## Types of RPGs
+- Turn based RPG - darkest Dungeon
+- ARPG
+- MMORPG
+- Tactical RPG TRPG - XCOM
+- contain interaction, conbat and RNG
+
+## Roles and Classes
+- allow some degree of initial character choice or ongoing customisation
+- Typical Archetypes
+  - Tank
+  - Damage
+  - Support
+- other
+  - Necromancer
+  - sniper
+- Define items, abilities, and interactions
+
+## Stats
+- impact abilities and performance
+- items, armour, buffs, debuffs can effect
+
+## Levelling
+- Progression Mechanic of most RPGs
+- Gain Experinece from Tasks
+- Increase CHaracter SKill as reward
+  - stats
+  - skill point
+  - gear, areas, quests
+
+## Skill Trees
+- Character Progression
+- not always important - debatable
+- often too complex or not rewarding enough per skill point
+
+## Abilities
+- Directly connected to class
+- Serve Function, damage, heal, buff
+
+## Ability Mechanics
+- Formulae control how stats contribute
+- impact general movement and attack speed
+- Intricately Designed
+
+## RPG Itemisation
+- varies
+- give bonuses
+- major progression point
+- Item Quality as a function of player level
+  - can  shift player stats
+  - farming for max quality items is an endgame objective for RPG players
+
+## Item Generation
+- stat ranges created server-sise - loot tables
+- item generation database
+
+## Item Sets
+- add interest in farming specific items for additional bonuses or change player archetype
+
+## Itemisation and RPG Development
+- stats, levelling, abilities and items, needs to be designed and tested
+
+## Player Decision Making
+- Often Neccessary to formulaically design mechanics in a way that encourages varied decision making
+
+## Item 'economy'
+- can't have everything at max stats forever. items rolls prohibit it
+- Limitations, caps, diminishing returns etc.
+- This is a form of min maxing
