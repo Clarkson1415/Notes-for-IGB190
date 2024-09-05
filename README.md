@@ -1,2 +1,2 @@
 Just my Notes for the Unit 
-[IGB190 Notes](IGb190/IGB190_-_Game_Mechanics_Implementation.md)
+[IGB190 Notes](IGB190/IGB190_Game_Mechanics_Implementation.md)
