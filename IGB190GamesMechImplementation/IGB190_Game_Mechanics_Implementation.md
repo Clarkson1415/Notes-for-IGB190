@@ -3,16 +3,16 @@
 Grace Clarkson
 
 # Contents
-- [igb190 Game Mechanics Implementation](#igb190-game-mechanics-implementation)
+- [IGB190 Game Mechanics Implementation](#igb190-game-mechanics-implementation)
 - [Contents](#contents)
 - [Weekly outline](#weekly-outline)
 - [Teaching team](#teaching-team)
 - [Class times](#class-times)
 - [Assignments](#assignments)
-- [Lecture 1](#lecture-1)
-  - [Low level game design](#low-level-game-design)
-  - [igb 190](#igb-190)
-  - [Major Topic C# scripting and Unity](#major-topic-c-scripting-and-unity)
+- [1. Lecture 1](#1-lecture-1)
+  - [1.1. Low level game design](#11-low-level-game-design)
+  - [1.2. igb 190](#12-igb-190)
+  - [1.3. Major Topic C# scripting and Unity](#13-major-topic-c-scripting-and-unity)
   - [Melee Combat Systems](#melee-combat-systems)
   - [animation driven systems](#animation-driven-systems)
   - [on hit events](#on-hit-events)
@@ -148,6 +148,15 @@ Grace Clarkson
   - [Itemisation and RPG Development](#itemisation-and-rpg-development)
   - [Player Decision Making](#player-decision-making)
   - [Item 'economy'](#item-economy)
+- [8. Topic 8](#8-topic-8)
+  - [8.1. Types of Formulae](#81-types-of-formulae)
+  - [8.2. Critical Strike Chance](#82-critical-strike-chance)
+  - [8.3. Experience Levelling Curve](#83-experience-levelling-curve)
+  - [8.4. Defences and Armour](#84-defences-and-armour)
+  - [8.5. Effective Health POints](#85-effective-health-points)
+  - [8.6. Item Values](#86-item-values)
+  - [8.7. Crit and Crit Damage](#87-crit-and-crit-damage)
+  - [8.8. Stat Budgeting add worksheet 8 notes ?](#88-stat-budgeting-add-worksheet-8-notes-)
 
 
 
@@ -167,9 +176,9 @@ Grace Clarkson
 
 ![Untitled](Untitled%203.png)
 
-# Lecture 1
+# 1. Lecture 1
 
-## Low level game design
+## 1.1. Low level game design
 
 - Elden ring character attack breakdown
 
@@ -178,11 +187,11 @@ Grace Clarkson
 - Basic Rules and mechanics don’t happen naturally
 - all discussed need to be carefully considered and implemented
 
-## igb 190
+## 1.2. igb 190
 
 - low-level concepts discussion education
 
-## Major Topic C# scripting and Unity
+## 1.3. Major Topic C# scripting and Unity
 
 - coming up
 
@@ -1325,3 +1334,52 @@ https://www.youtube.com/watch?v=AJdEQ
 - can't have everything at max stats forever. items rolls prohibit it
 - Limitations, caps, diminishing returns etc.
 - This is a form of min maxing
+
+# 8. Topic 8
+## 8.1. Types of Formulae
+Formula types (basic):
+• Linear
+• Exponential
+• Logarithmic
+• Sigmoid/Quadratic/Spline etc
+• Logical/Conditional
+
+## 8.2. Critical Strike Chance
+- WoW uses a crit rating value to calculate player crit chance. Bonus crit damage is fixed
+- linear
+
+## 8.3. Experience Levelling Curve
+- mostly exponential 
+- early levels acheived faster than later
+
+## 8.4. Defences and Armour
+- Path of Exile armour
+
+Damage Reduction = Armour / (Armour + 10 * Raw Damage)
+
+## 8.5. Effective Health POints
+- General Formula for EHP
+Health Pool * Defence = EHP
+
+- Monster Hunter\
+Defence EHP = (DEF / 80) + 1
+
+- League of Legends:\
+• Armour EHP = Health * (1+ 0.01 * Armor)\
+• Magic EHP = Health * (1+ 0.01 * MR)
+
+- Diablo\
+Armour EHP = Health x (1 + (Armor/(50 x Monster Level))
+
+## 8.6. Item Values
+- All items at same cost/price are relatively as powerfull. 
+- But depending on the player class and situation there should be a clear choice
+
+## 8.7. Crit and Crit Damage
+Example:
+
+Damage = (1-CHC) * dmg + CHC * 100 * (1+CHD)
+
+- Calculate DPS to balance: attacks / second * Damage
+
+## 8.8. Stat Budgeting add worksheet 8 notes ?
