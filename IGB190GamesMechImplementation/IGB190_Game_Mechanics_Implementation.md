@@ -148,7 +148,7 @@ Grace Clarkson
   - [Itemisation and RPG Development](#itemisation-and-rpg-development)
   - [Player Decision Making](#player-decision-making)
   - [Item 'economy'](#item-economy)
-- [8. Topic 8](#8-topic-8)
+- [8. Topic 8: Damage Formulas, Recovery and Items](#8-topic-8-damage-formulas-recovery-and-items)
   - [8.1. Types of Formulae](#81-types-of-formulae)
   - [8.2. Critical Strike Chance](#82-critical-strike-chance)
   - [8.3. Experience Levelling Curve](#83-experience-levelling-curve)
@@ -157,6 +157,11 @@ Grace Clarkson
   - [8.6. Item Values](#86-item-values)
   - [8.7. Crit and Crit Damage](#87-crit-and-crit-damage)
   - [8.8. Stat Budgeting add worksheet 8 notes ?](#88-stat-budgeting-add-worksheet-8-notes-)
+- [9. Topic 9: Advanced Gameplay Systems](#9-topic-9-advanced-gameplay-systems)
+  - [9.1. Advanced Gamplay Systems](#91-advanced-gamplay-systems)
+  - [9.2. Experiential Design](#92-experiential-design)
+  - [RPG gameplay systems](#rpg-gameplay-systems)
+  - [Builds](#builds)
 
 
 
@@ -1335,7 +1340,7 @@ https://www.youtube.com/watch?v=AJdEQ
 - Limitations, caps, diminishing returns etc.
 - This is a form of min maxing
 
-# 8. Topic 8
+# 8. Topic 8: Damage Formulas, Recovery and Items
 ## 8.1. Types of Formulae
 Formula types (basic):
 • Linear
@@ -1369,7 +1374,7 @@ Defence EHP = (DEF / 80) + 1
 • Magic EHP = Health * (1+ 0.01 * MR)
 
 - Diablo\
-Armour EHP = Health x (1 + (Armor/(50 x Monster Level))
+Armour EHP = Health x (1 + (Armor/(50 x Monster Level)))
 
 ## 8.6. Item Values
 - All items at same cost/price are relatively as powerfull. 
@@ -1383,3 +1388,21 @@ Damage = (1-CHC) * dmg + CHC * 100 * (1+CHD)
 - Calculate DPS to balance: attacks / second * Damage
 
 ## 8.8. Stat Budgeting add worksheet 8 notes ?
+
+# 9. Topic 9: Advanced Gameplay Systems
+## 9.1. Advanced Gamplay Systems
+- Rules and Mechanics
+    - Colliders
+    - animation driven systems
+    - stats
+    - logic rpg formulas etc.
+
+## 9.2. Experiential Design
+- Systems design is aiming at the experiential level
+- needs playtesting
+
+## RPG gameplay systems
+- 
+
+## Builds
+- creates a specific experience
