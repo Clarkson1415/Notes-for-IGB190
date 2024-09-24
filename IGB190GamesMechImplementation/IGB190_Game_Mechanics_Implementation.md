@@ -1402,7 +1402,20 @@ Damage = (1-CHC) * dmg + CHC * 100 * (1+CHD)
 - needs playtesting
 
 ## RPG gameplay systems
-- 
+- stats or items and abilities
+- creating builds for unique experience
 
 ## Builds
-- creates a specific experience
+- creates a specific experience with complementary items 
+- E.g. Tank, Healer, DPS
+- in ARPGs, its using ability rotation to continuously deal max damages
+- E.G. Diablo 3 LeapQuake 'Engine'
+
+## Gamplay Design
+- Doom eternal
+- Tekken 8
+- Monster hunger
+
+## Emergent or Intended
+- Emergent: unexpected outcomes arising from interaction of rules and mechanics
+- 
