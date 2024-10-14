@@ -164,7 +164,24 @@ Grace Clarkson
   - [Builds](#builds)
   - [Gamplay Design](#gamplay-design)
   - [Emergent or Intended](#emergent-or-intended)
-- [10. Lecture 10](#10-lecture-10)
+- [10. Lecture 10: Skill Difficulty and enjoyment](#10-lecture-10-skill-difficulty-and-enjoyment)
+  - [Interaction: Norman's seven stages](#interaction-normans-seven-stages)
+  - [Acquisition: Skill Acquisition Framework](#acquisition-skill-acquisition-framework)
+  - [Muscle Memory](#muscle-memory)
+  - [Skill Transfer](#skill-transfer)
+  - [Flow](#flow)
+  - [Cognitive Overload](#cognitive-overload)
+  - [Satisfaction: PENS](#satisfaction-pens)
+  - [Difficulty Considerations](#difficulty-considerations)
+    - [Desiging difficulty in games video](#desiging-difficulty-in-games-video)
+  - [Practise Opportunity and Scaffolding](#practise-opportunity-and-scaffolding)
+  - [rewards](#rewards)
+  - [Punishment](#punishment)
+  - [Key points for diffictulty and Enjoyment](#key-points-for-diffictulty-and-enjoyment)
+- [11. Level Design, Encounters, Goals and Quests](#11-level-design-encounters-goals-and-quests)
+  - [ARPG Level Design](#arpg-level-design)
+  - [Tileset](#tileset)
+  - [Modularity](#modularity)
 
 
 
@@ -1422,4 +1439,103 @@ Damage = (1-CHC) * dmg + CHC * 100 * (1+CHD)
 ## Emergent or Intended
 - Emergent: unexpected outcomes arising from interaction of rules and mechanics
 
-# 10. Lecture 10
+# 10. Lecture 10: Skill Difficulty and enjoyment
+
+## Interaction: Norman's seven stages
+- interaction model describing cognitive processes involved in interacting with real world systems.
+- Gulf of Execution
+  - gulf between user's intentiosn and actions
+- Gulf of Evaluation
+  - gulf between the state of the system and one's ability to interpret it.
+- Interpretation and Evaluation stages require considerable feedback components in video games
+
+## Acquisition: Skill Acquisition Framework
+- describes how individuals develop and refine skills through practise and experience
+- Cognitive - understand task 
+- associative - refine via practice
+- autonomous - skill becomes automatic 
+
+- Feedback is crucial.
+
+![alt text](image-1.png)
+
+
+## Muscle Memory
+- Mechanical repetition of physical actions create neural pathways to create faster, more coordinated movement.
+
+## Skill Transfer
+- Most game genres have standardised input and control schemes.
+
+## Flow
+![alt text](image-2.png)
+
+- Game should present challenges that match player's skill level
+- players should feel in control of their actions.
+- Concentration required to be in state of flow, potentially resulting in immersion.
+
+## Cognitive Overload
+- INtroduce rules, mechanics, systems and goals progressively and intuitively to avoid cognitive overload.
+
+## Satisfaction: PENS
+- PENS - Self Determination Theory SDT model that focuses on how games fulfill player's psychologcical needs and create meaningful experiences.
+- Player experience 
+  - emotional engagement
+  - immersionflow state
+- Needs Satisfaction
+  - competennce
+  - autonomy
+  - relatedness
+
+## Difficulty Considerations
+- Consideration should be a major part of your overarching Game Design Philosophy
+
+- Do you want to make a casual or challenging experience? Are your players going to be motivated to play one or the other? How so?
+
+- What about accessibility? Do you expect a baseline skill level for entry? Is this variable?
+
+- Are the rewards and punishments for engaging in the  challenges worth it for players? 
+
+### Desiging difficulty in games video
+https://www.youtube.com/watch?v=bxp4G-oJATM 
+
+## Practise Opportunity and Scaffolding
+- players should be scaffolded before engaging with difficulty spikes (e.g. bosses). 
+
+## rewards
+- Progression – levels, unlocks, access
+- Extrinsic – points, badges, achievements etc
+- Loot/Pickups – items, gear, materials
+- Social – leaderboards, rankings, friends
+- Narrative – story, lore, discovery and exploration
+- Feedback – immediate visual or audible cues
+
+## Punishment
+- Resource penalties (health, energy)
+- Character death (permanent?)
+- Negative status effects (less dmg, armor)
+- Loss of rewards (items, xp, access etc)
+- Narrative consequences
+- Crowd Control*
+
+## Key points for diffictulty and Enjoyment
+- Focus on providing some feedback to the player (e.g. animations, abilities)
+
+- Provide sensible scaffolding & difficulty scaling (e.g. enemies, encounters)
+
+- Focus on rewarding challenging gameplay, particularly in the moment-to-moment
+  - Gear, gold, rules, mechanics, systems
+
+# 11. Level Design, Encounters, Goals and Quests
+
+## ARPG Level Design
+- Levels in ARPGs are designed specifically with the camera perspective in mind
+
+- Top-down isometric camera requires most levels to be ‘open’ on the top to be viewed 
+
+- Levels are usually quite spacious and non-obstructive to allow for player autonomy
+
+## Tileset
+Tile Set - a set of unique geometric areas for player traversal inclusive of modular components that can be repeated and joined together
+
+## Modularity
+- create smaller more modular components that can be combined together.
