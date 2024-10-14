@@ -162,6 +162,9 @@ Grace Clarkson
   - [9.2. Experiential Design](#92-experiential-design)
   - [RPG gameplay systems](#rpg-gameplay-systems)
   - [Builds](#builds)
+  - [Gamplay Design](#gamplay-design)
+  - [Emergent or Intended](#emergent-or-intended)
+- [10. Lecture 10](#10-lecture-10)
 
 
 
@@ -1418,4 +1421,5 @@ Damage = (1-CHC) * dmg + CHC * 100 * (1+CHD)
 
 ## Emergent or Intended
 - Emergent: unexpected outcomes arising from interaction of rules and mechanics
-- 
+
+# 10. Lecture 10
